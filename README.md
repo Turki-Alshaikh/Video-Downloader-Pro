@@ -79,9 +79,3 @@ pyinstaller --noconsole --onefile --add-binary "ffmpeg.exe;." --collect-all cust
 This tool is for educational purposes and personal use only. Please respect YouTube's Terms of Service and the copyright of the content creators. Do not use this tool to distribute copyrighted material.
 
 ```
-
-### نصائح سريعة لـ GitHub:
-* **لقطة شاشة (Screenshot):** التقط صورة لواجهة برنامجك الجميلة أثناء عملها، وضعها في نفس المجلد، ثم أضفها إلى الـ README (يمكنك إضافتها تحت العنوان مباشرة برفعها على جيت هب وسحبها داخل الملف). هذا سيرفع من احترافية المشروع بنسبة 100%.
-* **تجاهل الملفات الثقيلة:** تأكد من عدم رفع ملف `ffmpeg.exe` أو مجلدات `build` و `dist` إلى GitHub (يفضل إضافة ملف `.gitignore` وتخطيها)، وارفع فقط كود البايثون وصورة الواجهة وملف الـ README. البرنامج النهائي (`.exe`) يمكنك رفعه في قسم **Releases** في GitHub لكي يحمله المستخدمون مباشرة.
-
-```
